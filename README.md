@@ -12,7 +12,7 @@ ATO calculation plug-in for BveTs5 by Stop_Pattern
 
 ### 開発環境
 - OS:	Windows10 (jp)
-- IDE:	VS2017&VS2019
+- IDE:	VS2019(16.1.3 or later)
 - Platform:	BVETrainSim v5.7 (5.7.6224.40815 or later)
 - Other:　notepad++
 
@@ -45,9 +45,11 @@ ATO calculation plug-in for BveTs5 by Stop_Pattern
 ## 変更履歴
 <details><summary>バージョンごとの変更履歴</summary><div>
 
-- Ver. null
-    未release
+- Ver. null  
+    未release  
+
 ---この直上が最新版です---  
+
 </div>
 </details>
 
