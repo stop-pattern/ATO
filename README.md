@@ -14,7 +14,7 @@ ATO calculation plug-in for BveTs5 by Stop_Pattern
 - OS:	Windows10 (jp)
 - IDE:	VS2019(16.1.3 or later)
 - Platform:	BVETrainSim v5.7 (5.7.6224.40815 or later)
-- Other:　notepad++
+- Other:　notepad++, 
 
 ### 推奨動作環境
 - OS:	Windows10 (jp)
@@ -57,4 +57,5 @@ ATO calculation plug-in for BveTs5 by Stop_Pattern
 詳細な変更履歴は[commit message](https://github.com/stop-pattern/ATO/commits/)を参照してください  
 
 ## 謝辞
+一部TetsuOtter様の[BVE_ATSPITemp](https://github.com/TetsuOtter/BVE_ATSPITemp)をもとに作らせていただきました  
 BVEを開発されたmackoy様を始めとし、このプロジェクトに関係するすべての方に感謝の意を表します。  

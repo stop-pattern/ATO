@@ -9,5 +9,5 @@
 
 // プリコンパイルするヘッダーをここに追加します
 #include "framework.h"
-
+#include "AtsPI.h"
 #endif //PCH_H
