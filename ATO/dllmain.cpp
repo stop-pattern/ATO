@@ -1,5 +1,5 @@
 ﻿// dllmain.cpp : DLL アプリケーションのエントリ ポイントを定義します。
-#include "pch.h"
+#include "pch/pch.h"
 #include "Header.h"
 
 BOOL APIENTRY DllMain(HMODULE hModule,

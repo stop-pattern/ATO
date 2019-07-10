@@ -1,5 +1,5 @@
 #pragma once
-#include "pch.h"
+#include "pch/pch.h"
 
 extern bool door;	//ドア状態
 extern int Signal;	//信号インデックス

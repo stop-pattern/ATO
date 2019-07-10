@@ -1,4 +1,4 @@
-#include "pch.h"
+#include "pch/pch.h"
 #include "Header.h"
 
 bool door;	//ƒhƒAó‘Ô

@@ -13,14 +13,11 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="pch">
+      <UniqueIdentifier>{2d11a821-7a14-4e01-89b8-3c985a846d8b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="framework.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="pch.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
     <ClInclude Include="AtsPI.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
@@ -30,16 +27,22 @@
     <ClInclude Include="resource\resource.h">
       <Filter>リソース ファイル</Filter>
     </ClInclude>
+    <ClInclude Include="pch\pch.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="pch\framework.h">
+      <Filter>pch</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="pch.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
     <ClCompile Include="Source.cpp">
       <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="pch\pch.cpp">
+      <Filter>pch</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

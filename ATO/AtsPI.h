@@ -1,7 +1,7 @@
 //Headder for ATS Plugin
 //Author Tetsu Otter
 #pragma once
-#include "./pch.h"
+#include "pch/pch.h"
 
 //DLL import‚ğ’Zk
 #define DE extern "C" __declspec(dllexport)
