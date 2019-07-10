@@ -13,10 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="pch">
-      <UniqueIdentifier>{2d11a821-7a14-4e01-89b8-3c985a846d8b}</UniqueIdentifier>
-      <Extensions>pch.h;pch.cpp</Extensions>
-    </Filter>
     <Filter Include="ATO">
       <UniqueIdentifier>{c0e683c1-97e5-440e-87dd-1384c829475f}</UniqueIdentifier>
     </Filter>
@@ -31,15 +27,6 @@
     <ClInclude Include="resource\resource.h">
       <Filter>リソース ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="pch\pch.h">
-      <Filter>pch</Filter>
-    </ClInclude>
-    <ClInclude Include="pch\framework.h">
-      <Filter>pch</Filter>
-    </ClInclude>
-    <ClInclude Include="pch\AtsPI.h">
-      <Filter>pch</Filter>
-    </ClInclude>
     <ClInclude Include="header\define.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
@@ -49,6 +36,7 @@
     <ClInclude Include="TASC\TASC.h">
       <Filter>TASC</Filter>
     </ClInclude>
+    <ClInclude Include="AtsPI.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
@@ -56,9 +44,6 @@
     </ClCompile>
     <ClCompile Include="Source.cpp">
       <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="pch\pch.cpp">
-      <Filter>pch</Filter>
     </ClCompile>
     <ClCompile Include="source\Function.cpp">
       <Filter>ソース ファイル</Filter>

@@ -1,4 +1,5 @@
-#include "../pch/pch.h"
+#include <math.h>
+#include <stdlib.h>
 #include "../header/define.h"
 #include "../Header.h"
 #include "TASC.h"
@@ -21,7 +22,7 @@ void c_TASC::Control(State S, int * panel, int * sound) {
 				ATCstatus |= static_cast<int>(ATC_Status::TASC_doing);
 
 				int sign = (this->Limit -Status.V > 0) - (this->Limit -Status.V < 0);
-				if (abs(this->Limit -Status.V) <= 8) {}
+				if (fabs(this->Limit -Status.V) <= 8) {}
 				if (this->Limit >Status.V) {
 					this->control.B++;
 				}
@@ -52,7 +53,7 @@ void c_TASC::Control(State S, int * panel, int * sound) {
 				//this->control.B = 0;
 			}
 
-			if (abs(Status.V) < 5) {
+			if (fabs(Status.V) < 5) {
 				if (this->control.B > Specific.E / 2) {
 					if (rand() % 2) this->control.B--;
 				}
@@ -60,11 +61,11 @@ void c_TASC::Control(State S, int * panel, int * sound) {
 					if (rand() % 2) this->control.B++;
 				}
 
-				if (abs(Status.V) < 1.5 && this->control.B > 1) {
+				if (fabs(Status.V) < 1.5 && this->control.B > 1) {
 					if (rand() % 2) this->control.B--;
 				}
 
-				if (abs(speed) == 0) {
+				if (fabs(Status.V) == 0) {
 					ATCstatus |= static_cast<int>(ATC_Status::TASC_stopping);
 				}
 			}

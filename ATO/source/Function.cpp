@@ -1,4 +1,4 @@
-﻿#include "../pch/pch.h"
+﻿#include <math.h>
 #include "../header/define.h"
 #include "../Header.h"
 

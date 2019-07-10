@@ -1,4 +1,6 @@
-#include "../pch/pch.h"
+#include <math.h>
+#include <stdlib.h>
+#include "../AtsPI.h"
 #include "../header/define.h"
 #include "../Header.h"
 #include "ATO.h"

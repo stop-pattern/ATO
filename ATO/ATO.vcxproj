@@ -103,13 +103,14 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;ATO_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -163,22 +164,14 @@
   <ItemGroup>
     <ClInclude Include="ATO\ATO.h" />
     <ClInclude Include="header\define.h" />
-    <ClInclude Include="pch\framework.h" />
-    <ClInclude Include="pch\AtsPI.h" />
+    <ClInclude Include="AtsPI.h" />
     <ClInclude Include="Header.h" />
-    <ClInclude Include="pch\pch.h" />
     <ClInclude Include="resource\resource.h" />
     <ClInclude Include="TASC\TASC.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ATO\ATO.cpp" />
     <ClCompile Include="dllmain.cpp" />
-    <ClCompile Include="pch\pch.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
-    </ClCompile>
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="source\Function.cpp" />
     <ClCompile Include="TASC\TASC.cpp" />

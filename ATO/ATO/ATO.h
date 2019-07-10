@@ -2,7 +2,7 @@
 #ifndef _ATO_
 #define _ATO_
 
-#include "../pch/pch.h"
+#include "../AtsPI.h"
 
 #define ATO_CSC_TIME 2500	//ATO’è‘¬”»’èŽžŠÔ
 
