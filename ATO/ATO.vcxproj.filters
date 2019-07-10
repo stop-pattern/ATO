@@ -15,6 +15,13 @@
     </Filter>
     <Filter Include="pch">
       <UniqueIdentifier>{2d11a821-7a14-4e01-89b8-3c985a846d8b}</UniqueIdentifier>
+      <Extensions>pch.h;pch.cpp</Extensions>
+    </Filter>
+    <Filter Include="ATO">
+      <UniqueIdentifier>{c0e683c1-97e5-440e-87dd-1384c829475f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TASC">
+      <UniqueIdentifier>{4d28275a-f8a4-4fcb-b54b-a10baaf84197}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -33,6 +40,15 @@
     <ClInclude Include="pch\AtsPI.h">
       <Filter>pch</Filter>
     </ClInclude>
+    <ClInclude Include="header\define.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ATO\ATO.h">
+      <Filter>ATO</Filter>
+    </ClInclude>
+    <ClInclude Include="TASC\TASC.h">
+      <Filter>TASC</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
@@ -43,6 +59,15 @@
     </ClCompile>
     <ClCompile Include="pch\pch.cpp">
       <Filter>pch</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Function.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ATO\ATO.cpp">
+      <Filter>ATO</Filter>
+    </ClCompile>
+    <ClCompile Include="TASC\TASC.cpp">
+      <Filter>TASC</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

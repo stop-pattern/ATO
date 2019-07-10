@@ -161,13 +161,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="ATO\ATO.h" />
+    <ClInclude Include="header\define.h" />
     <ClInclude Include="pch\framework.h" />
     <ClInclude Include="pch\AtsPI.h" />
     <ClInclude Include="Header.h" />
     <ClInclude Include="pch\pch.h" />
     <ClInclude Include="resource\resource.h" />
+    <ClInclude Include="TASC\TASC.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ATO\ATO.cpp" />
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="pch\pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -176,6 +180,8 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="source\Function.cpp" />
+    <ClCompile Include="TASC\TASC.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Source.def" />
