@@ -28,7 +28,12 @@ DE int SC GetPluginVersion() {
 	return PI_VERSION;
 }
 DE void SC SetVehicleSpec(Spec s) {
-	Specific = s;
+	Specific.A = s.A;
+	Specific.B = s.B;
+	Specific.C = s.C;
+	Specific.E = s.B + 1;
+	Specific.J = s.J;
+	Specific.P = s.P;
 }
 DE void SC Initialize(int b) {
 }
