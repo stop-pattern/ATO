@@ -162,7 +162,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="pch\framework.h" />
-    <ClInclude Include="AtsPI.h" />
+    <ClInclude Include="pch\AtsPI.h" />
     <ClInclude Include="Header.h" />
     <ClInclude Include="pch\pch.h" />
     <ClInclude Include="resource\resource.h" />
