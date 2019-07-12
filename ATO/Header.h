@@ -9,8 +9,8 @@ extern double Accelaration;	//加減速度[km/h/s]
 extern bool ATSKey[16];	//ATSkey状態
 
 extern SpecPlus Specific;	//車両性能
-extern State Status;	//車両状態
-extern State Status_previous;	//車両状態(前フレーム)
+extern StatePlus Status;	//車両状態
+extern StatePlus Status_previous;	//車両状態(前フレーム)
 extern Hand Manual;	//手動ハンドル位置
 extern Hand Handle;	//ハンドル制御値
 

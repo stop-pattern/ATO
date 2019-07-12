@@ -36,7 +36,9 @@
     <ClInclude Include="TASC\TASC.h">
       <Filter>TASC</Filter>
     </ClInclude>
-    <ClInclude Include="AtsPI.h" />
+    <ClInclude Include="AtsPI.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">

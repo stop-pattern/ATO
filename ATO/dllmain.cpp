@@ -30,18 +30,26 @@ DE int SC GetPluginVersion() {
 	return PI_VERSION;
 }
 DE void SC SetVehicleSpec(Spec s) {
-	Specific.A = s.A;
 	Specific.B = s.B;
+	Specific.P = s.P;
+	Specific.A = s.A;
+	Specific.J = s.J;
 	Specific.C = s.C;
 	Specific.E = s.B + 1;
-	Specific.J = s.J;
-	Specific.P = s.P;
 }
 DE void SC Initialize(int b) {
 }
 DE Hand SC Elapse(State S, int* p, int* s) {
 	Status_previous = Status;
-	Status = S;
+	Status.Z = S.Z;
+	Status.V = S.V;
+	Status.T = S.T;
+	Status.BC = S.BC;
+	Status.MR = S.MR;
+	Status.ER = S.ER;
+	Status.BP = S.BP;
+	Status.SAP = S.SAP;
+	Status.I = S.I;
 	Status.A = (Status.V - Status_previous.V) / (Status.Z - Status_previous.Z);
 
 	//todo : add code here
