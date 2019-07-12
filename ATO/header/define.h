@@ -17,7 +17,6 @@ enum class ATC_Status : int {
 
 	ATC_OFF = 0x0000,
 	ATC_ON = 0x0800,
-	ATC_brake = 0x0400,
 
 	ATO_OFF = 0x0000,	//SW!=ATO
 	ATO_ON = 0x0080,	//SW==ATO
@@ -32,6 +31,17 @@ enum class ATC_Status : int {
 	TASC_stopping = 0x0001,	//stoppping & brake
 
 	/*
+	0x0000
+	  ||||
+	  ABCD
+
+	  A:SW	ON/OFF only
+	  B:ATC
+	  C:ATO
+	  D:TASC
+
+	----------
+
 	0b0000
 	  ||||
 	  ABCD

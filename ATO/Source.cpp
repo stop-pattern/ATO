@@ -16,6 +16,8 @@ Hand Handle;	//ハンドル制御値
 int ATCstatus;	//ATC状態
 int LimitSpeed;	//制限速度
 int MasCon_Key;	//マスコンキー
+int lag_cnt;	//ラグ用カウンター
+bool isLoad;	//ラグ制御伝達用
 
 c_ATO ATO;	//ATO
 c_TASC TASC;	//TASC
