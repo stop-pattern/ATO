@@ -1,6 +1,9 @@
 //Headder for ATS Plugin
 //Author Tetsu Otter
 #pragma once
+#ifndef _ATS_
+#define _ATS_
+
 
 //DLL importÇíZèk
 #define DE extern "C" __declspec(dllexport)
@@ -121,3 +124,6 @@ DE void SC DoorOpen(void);
 DE void SC DoorClose(void);
 DE void SC SetSignal(int);
 DE void SC SetBeaconData(Beacon);
+
+
+#endif // _ATS_

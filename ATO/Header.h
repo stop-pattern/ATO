@@ -1,4 +1,8 @@
 #pragma once
+#ifndef _HEADER_
+#define _HEADER_
+
+
 #include "AtsPI.h"
 #include "ATO/ATO.h"
 #include "TASC/TASC.h"
@@ -29,3 +33,6 @@ extern c_TASC TASC;	//TASC
 void reload(void);	//駅ジャンプ時再読み込み処理
 void SetStatus();	//ATO/TASCスイッチ操作
 void setKey(int);	//マスコンキー操作
+
+
+#endif // !_HEADER_

@@ -1,4 +1,7 @@
 ﻿#pragma once
+#ifndef _DEFINE_
+#define _DEFINE_
+
 
 #define DECELERATION_PATTERN 19.5	//P接近計算用減速定数
 #define DECELERATION_BRAKE 20	//常用P計算用減速定数
@@ -170,3 +173,5 @@ TOY = 8,	//東葉(？)
 };
 
 
+
+#endif // _DEFINE_
