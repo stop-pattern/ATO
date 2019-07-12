@@ -1,7 +1,6 @@
 ﻿// dllmain.cpp : DLL アプリケーションのエントリ ポイントを定義します。
 #include <Windows.h>
 #include <math.h>
-#include "AtsPI.h"
 #include "header/define.h"
 #include "Header.h"
 
